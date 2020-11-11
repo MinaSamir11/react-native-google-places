@@ -56,7 +56,11 @@ project.xcworkspace
 # Android/IJ
 #
 react-native-google-places.iml
+android/gradle/wrapper
 .idea
 .gradle
 .vscode
+.project
+.settings
+.classpath
 local.properties
