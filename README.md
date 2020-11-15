@@ -588,4 +588,19 @@ On iOS, ensure you have installed the native dependencies with Cocoapods.
 
 ## License
 
+# How to test your code
+
+Here is an example for Jest, adapt it to your needs :
+
+```js
+// __mocks__/react-native-google-places.js
+
+export default {
+  getAutocompletePredictions: jest.fn(),
+  lookUpPlaceByID: jest.fn(),
+  openAutocompleteModal: jest.fn(),
+  getCurrentPlace: jest.fn(),
+};
+```
+
 The MIT License.
